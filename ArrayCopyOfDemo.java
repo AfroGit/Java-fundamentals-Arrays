@@ -9,7 +9,10 @@ class ArrayCopyOfDemo {
         
         String[] copyTo = java.util.Arrays.copyOfRange(copyFrom, 2, 9);        
         for (String coffee : copyTo) {
-            System.out.print(coffee + " ");           
+            System.out.print(coffee + " ");     
+
+          // System.out.println(java.util.Arrays.toString(copyTo));
+          //above method converts each element of the array to a string, separates them with commas, then surrounds them with brackets
         }            
     }
 }
