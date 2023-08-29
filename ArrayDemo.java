@@ -40,6 +40,8 @@
                            + anArray[8]);
         System.out.println("Element at index 9: "
                            + anArray[9]);
+      System.out.println("Element at index 10: "
+                           + anArray[10]);
     }
 } 
   
