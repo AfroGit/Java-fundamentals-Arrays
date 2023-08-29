@@ -1,4 +1,4 @@
-/* */ 
+/* The previous example can be modified to use the copyOfRange method of the java.util.Arrays class, as you can see in the ArrayCopyOfDemo example. The difference is that using the copyOfRange method does not require you to create the destination array before calling the method, because the destination array is returned by the method */ 
 
 class ArrayCopyOfDemo {
     public static void main(String[] args) {
